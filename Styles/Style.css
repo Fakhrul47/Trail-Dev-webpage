@@ -24,15 +24,17 @@
     background-color: #FD6E0A;
     border: none;
     border-radius:5px;
-    padding: 18px 35px;
-    font-size: 20px;
+    padding: 15px 32px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 
 
 
 }
 nav .menu {
+    margin-top:30px;
     display: flex;
     list-style-type: none;
     gap: 51px;
@@ -42,11 +44,18 @@ nav .menu {
 
 nav .menu li a {
     text-decoration: none;
+    font-size:20px;
     color: #474747;
+    font-weight: bold
+    
+    
 }
 /* main style */
 header {
-background-color: rgb(255, 242, 234);
+background-color: rgb(228, 223, 219);
+background: url("../images/developer.png") , url("../images/header_bg.png") ,rgb(228, 223, 219) ;
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position: top left,bottom right;
 scroll-padding-top:50px;
 }
 
@@ -59,5 +68,45 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px 0px;
+
+}
+
+#banner {
+    /* border: 1px solid rgb(233, 84, 84); */
+    margin: 45px 42px 0px 200px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content {
+    max-width:555px;
+
+}
+
+#banner .banner-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:5px;
+    color:#474747
+   
+}
+#banner .banner-content h1{
+    font-size: 65px;
+    font-weight: bold;
+    color:Dark;
+    margin-bottom: 10px;
+
+}
+#banner .banner-content p {
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img {
+    width: 560px;
+    vertical-align:middle;
 
 }
